@@ -1,9 +1,8 @@
 import firebase from "firebase/app";
 import "firebase/auth";
 import "firebase/database";
-const FIREBASE_API_KEY = process.env.REACT_APP_FIREBASE_API_KEY;
 const config = {
-  apiKey: FIREBASE_API_KEY,
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
   authDomain: "crypto-monitor-db.firebaseapp.com",
   databaseURL: "https://crypto-monitor-db-default-rtdb.firebaseio.com",
   projectId: "crypto-monitor-db",
